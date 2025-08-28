@@ -86,9 +86,9 @@ footer {
 body H3 {
 color: #cc0a00;
 display: flex;
-justify-content: center;
-align-items: center;
-margin: 0px 10px;
+justify-items: left;
+align-items: left;
+margin: 0px 290px;
 }
 
 img {
