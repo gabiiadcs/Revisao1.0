@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resumo 1.0</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Resumo 1.0 :) </h1>
+    <nav>
+      <ul>
+        <li><a href="#cascata">Cascata</a></li>
+        <li><a href="#especificidade">Especificidade</a></li>
+        <li><a href="#combinacao">Seletores</a></li>
+        <li><a href="#pseudo">Pseudo</a></li>
+        <li><a href="#display">Display</a></li>
+        <li><a href="#caixas">Caixas</a></li>
+        <li><a href="#box">Box-sizing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="cascata">
+      <h2>Cascata</h2>
+      <ol>
+        <li>!important vence</li>
+        <li>Inline > ID > Classe > Tag</li>
+        <li>Última regra no código</li>
+      </ol>
+    </section>
+
+    <section id="especificidade">
+      <h2>Especificidade</h2>
+      <table>
+        <tr><th>Seletor</th><th>Exemplo</th><th>Força</th></tr>
+        <tr><td>Tag</td><td>h1</td><td>Baixa</td></tr>
+        <tr><td>Classe</td><td>.titulo</td><td>Média</td></tr>
+        <tr><td>ID</td><td>#id</td><td>Alta</td></tr>
+        <tr><td>Inline</td><td>style=""</td><td>Máxima</td></tr>
+      </table>
+    </section>
+
+    <section id="combinacao">
+      <h2>Combinação de Seletores</h2>
+      <ul>
+        <li><code>.pai h1</code> - descendente</li>
+        <li><code>.pai > h1</code> - filho direto</li>
+        <li><code>h1 + h1</code> - irmão adjacente</li>
+      </ul>
+    </section>
+
+    <section id="pseudo">
+      <h2>Pseudo-classes</h2>
+      <ul>
+        <li><code>:first-child</code> - primeiro</li>
+        <li><code>:last-child</code> - último</li>
+        <li><code>:nth-child(n)</code> - posição</li>
+        <li><code>:nth-of-type(n)</code> - posição do tipo</li>
+      </ul>
+    </section>
+
+    <section id="display">
+      <h2>Display</h2>
+      <table>
+        <tr><th>Tipo</th><th>Características</th><th>Exemplos</th></tr>
+        <tr><td>Inline</td><td>Não quebra linha</td><td>span, a, img</td></tr>
+        <tr><td>Block</td><td>Ocupa toda linha</td><td>div, p, h1</td></tr>
+      </table>
+    </section>
+
+    <section id="caixas">
+      <h2>Margin / Padding / Border</h2>
+      <p><strong>Margin</strong>: externo | <strong>Padding</strong>: interno | <strong>Border</strong>: borda</p>
+      <ul>
+        <li>1 valor - todos</li>
+        <li>2 valores - cima/baixo, lados</li>
+        <li>3 valores - cima, lados, baixo</li>
+        <li>4 valores - cima, direita, baixo, esquerda</li>
+      </ul>
+      <p>Sufixos: top, bottom, left, right, inline, block</p>
+    </section>
+
+    <section id="box">
+      <h2>Box-sizing</h2>
+      <p><code>border-box</code> inclui conteúdo + padding + border no tamanho definido.</p>
+    </section>
+
+  <a href="https://www.youtube.com/live/b93He2hJA6Y?si=fncPyI8ca6ntl4NF" target="_blank">Vídeo do Marcinho - Cascata, Especifidade e Combinadores.</a>                                                          .
+  <a href="https://www.youtube.com/live/hAyOsNRV-jA?si=2JWrDtD8L_6vkQMb" target="_blank">Vídeo do Marcinho - Box Model e Dispkay. </a>
+
+    </main>
+
+  <img src="Captura de tela 2025-08-27 231246.png" alt="Marcinho">
+  <H3>FINISH</H3>
+
+</body>
+</html>
+ 
